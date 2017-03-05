@@ -78,8 +78,7 @@
 <footer>
     <img src="img/mk-footer.jpg" alt="">
 </footer>
-<div id="mask"></div>
-<div class="consult">
+<div class="consult" id="mask">
     <h2>咨询指南<i class="cha"></i></h2>
     <div class="consult-con">
         <h3>什么是职业规划咨询服务？</h3>
@@ -111,11 +110,11 @@
             mask.show();
         });
 
-        document.getElementById('mask').addEventListener('touchmove', function (event) {
-            if (consultWrap.css('display')=="block") {
-                event.preventDefault();
-            }
-        })
+//        document.getElementById('mask').addEventListener('touchmove', function (event) {
+//            if (consultWrap.css('display')=="block") {
+//                event.preventDefault();
+//            }
+//        })
     });
 </script>
 </body>
