@@ -296,7 +296,7 @@ html{font-size:10px}
 }
 .consult-con{
     color:#e8e8e8;
-    padding:0 5%; margin:56px 0;
+    padding:0 5% 90px; margin-top:56px;
     text-align: justify;
     height:100%;
     overflow-y:auto;
