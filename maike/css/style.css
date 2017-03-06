@@ -256,14 +256,15 @@ html{font-size:10px}
 }
 
 /*consult*/
+.blur-box{-webkit-filter: blur(10px);}
 .consult-btn{
     position: absolute;
-    right: 3%;
+    right: 2%;
     top: 18%;
-    width: 67px;
-    height: 20px;
-    background: url("../img/consult.png") no-repeat;
-    background-size: cover;
+    width: 18.6%;
+    height: 10%;
+    /*background: url("../img/consult.png") no-repeat;*/
+    /*background-size: cover;*/
 }
 .consult{
     position:fixed;
