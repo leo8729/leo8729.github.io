@@ -126,6 +126,7 @@ html{font-size:10px}
 }
 .payment-price{
     padding-left:5%;
+    color:#fff;
 }
 .payment-btn{
     float:right;
@@ -309,6 +310,5 @@ html{font-size:10px}
 .consult-con>p{
     margin-bottom:20px;
 }
-
 
 
