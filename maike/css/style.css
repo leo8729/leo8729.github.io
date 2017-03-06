@@ -93,11 +93,11 @@ html{font-size:10px}
     content: '';
     display: block;
     width: 1px;
-    height: 1rem;
+    height: 1.1rem;
     background: #ddd;
     position: absolute;
     left: 0;
-    top: 0.02rem;
+    top: 0.03rem;
 }
 .lists-row3>li+li{
     padding:0 12px;
