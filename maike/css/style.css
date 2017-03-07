@@ -23,21 +23,19 @@ html{font-size:10px}
     width:94%; margin:0 auto;
 }
 .lists-tit{
-    margin:10px 0;
+    margin:6px 0 10px;
     border-left:2px solid #f6c81e;
     padding-left:10px;
     font-size:1.4rem;
     color:#fff;
+    line-height: 1;
 }
 .lists>li{
-    min-height: 120px;
-    margin:0 0 15px;
-    background:#fff;
-    overflow:hidden;
-    box-shadow:0 5px 5px #222c6c;
-    box-sizing: border-box;
-    position:relative;
-    padding:15px 10px;
+    margin: 0 0 12px;
+    background: #fff;
+    box-shadow: 0 5px 5px #222c6c;
+    position: relative;
+    padding: 12px 10px;
 }
 .lists-headimg{
     position:absolute;
@@ -51,7 +49,8 @@ html{font-size:10px}
     overflow: hidden;
 }
 .lists-main{
-    margin-left:100px;
+    margin-left: 100px;
+    min-height: 90px;
 }
 .lists-main h3{
     font-size:1.4rem;
@@ -67,29 +66,23 @@ html{font-size:10px}
     background-size:10px;
     padding-left:12px;
 }
-
-.lists-row2,.lists-row3{
-    margin-left:-8px;
-    margin-top:10px;
+.lists-row2{
+    margin-top: 8px;
     vertical-align:bottom;
-}
-.lists-row2>li,.lists-row3>li{
-    padding:0 8px;
-    position:relative;
-    line-height: 1;
-}
-.lists-row2>li{
-    float:left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
     font-size:1.3rem;
     color:#707070;
 }
-.lists-row3>li{
-    display:inline-block;
-    font-size:1.1rem;
-    color:#909090;
-    vertical-align:bottom;
+.lists-row2>span{
+    padding-right:4px;
+    position:relative;
 }
-.lists-row2>li+li:before{
+.lists-row2>span+span{
+    padding-left:8px;
+}
+.lists-row2>span+span:before{
     content: '';
     display: block;
     width: 1px;
@@ -98,6 +91,22 @@ html{font-size:10px}
     position: absolute;
     left: 0;
     top: 0.03rem;
+}
+.lists-row3{
+    margin-left:-8px;
+    margin-top: 8px;
+    vertical-align:bottom;
+}
+.lists-row3>li{
+    padding:0 8px;
+    position:relative;
+    line-height: 1;
+}
+.lists-row3>li{
+    display:inline-block;
+    font-size:1.1rem;
+    color:#909090;
+    vertical-align:bottom;
 }
 .lists-row3>li+li{
     padding:0 12px;
@@ -275,7 +284,7 @@ html{font-size:10px}
     left:0;
     z-index: 510;
     font-size:1.4rem;
-    background:rgba(2,2,2,0.8);
+    background:rgba(255,255,255,0.5);
     display:none;
 }
 .consult>h2{
@@ -285,7 +294,8 @@ html{font-size:10px}
     font-size:1.4rem;
     color:#fff;
     padding:10px 0 10px 5%;
-    border-bottom:1px solid #464646;
+    border-bottom:1px solid #fff;
+    /*border-bottom:1px solid #464646;*/
 }
 .cha{
     position:absolute;
@@ -297,7 +307,8 @@ html{font-size:10px}
     transform:translateY(-50%);
 }
 .consult-con{
-    color:#e8e8e8;
+    /*color:#e8e8e8;*/
+    color:#fff;
     padding:0 5% 90px; margin-top:56px;
     text-align: justify;
     height:100%;
