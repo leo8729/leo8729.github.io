@@ -256,7 +256,7 @@ html{font-size:10px}
     transform: rotate(180deg);
 }
 .details-order>ul{
-    text-indent: -1em;
+    text-indent: -0.9em;
     margin-left: 1em;
     color: #555;
     font-size: 1.4rem;
