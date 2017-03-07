@@ -335,3 +335,10 @@ html{font-size:10px}
 }
 
 
+.t1{
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media screen and (min-width:370px) {.t1{width:auto;}}
