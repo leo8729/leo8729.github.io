@@ -84,17 +84,18 @@ html{font-size:10px}
 }
 .lists-row22>span+span{
     padding-left:8px;
+    border-left:1px solid #ddd;
 }
-.lists-row22>span+span:before{
-    content: '';
-    display: block;
-    width: 1px;
-    height: 1.1rem;
-    background: #ddd;
-    position: absolute;
-    left: 0;
-    top: 0.03rem;
-}
+/*.lists-row22>span+span:before{*/
+    /*content: '';*/
+    /*display: block;*/
+    /*width: 1px;*/
+    /*height: 1.1rem;*/
+    /*background: #ddd;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0.03rem;*/
+/*}*/
 .lists-row2,.lists-row3{
     margin-left:-8px;
     margin-top:8px;
