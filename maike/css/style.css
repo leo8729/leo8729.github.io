@@ -185,6 +185,7 @@ html{font-size:10px}
 .details-price{
     position: absolute;
     top:0; right:0;
+    color:#909090;
 }
 .details-info-top{
     position: relative;
@@ -275,11 +276,7 @@ html{font-size:10px}
     margin:40px 0;
 }
 .ewm>img{
-    /*padding:40px 0;*/
-    width:60%;
-}
-.ewm>p{
-    /*margin-top:-40px;*/
+    width:40%;
 }
 
 /*consult*/
