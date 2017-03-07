@@ -261,6 +261,9 @@ html{font-size:10px}
     font-size: 1.4rem;
     text-align:justify;
 }
+.details-order>ul>li{
+    margin-bottom:8px;
+}
 .blue{
     color:#2a3685
 }
@@ -269,10 +272,13 @@ html{font-size:10px}
     line-height: 1.6;
     font-size: 1.2rem;
     color:#fff;
-    margin:40px 0;
 }
 .ewm>img{
-    width:30%;
+    padding:40px 0;
+    width:40%;
+}
+.ewm>p{
+    margin-top:-40px;
 }
 
 /*consult*/

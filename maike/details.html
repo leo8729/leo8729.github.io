@@ -21,19 +21,19 @@
 <section class="details">
     <div class="details-header">
         <div class="details-img">
-            <img src="img/detailsimg/image-djl.png" alt="">
+            <img src="img/detailsimg/image-baihui.png" alt="">
         </div>
         <div class="details-info">
             <div class="details-info-top">
                 <div class="details-price">
                     <span class="red unit">￥</span><span class="red price">9.9</span>/次
                 </div>
-                <h1>如何进行职业规划</h1>
+                <h1>如何确定职业生涯发展的方向</h1>
                 <ul class="lists-row2 clearfix">
-                    <li>段金龙</li>
-                    <li>爱奇艺招聘经理</li>
+                    <li>柏慧</li>
+                    <li>搜狐集团招聘及雇主品牌主管</li>
                 </ul>
-                <p class="details-time">咨询时间：3月26日19:00-22:00</p>
+                <p class="details-time">咨询时间：3月23日19:00-22:00</p>
             </div>
             <div class="details-info-bottom">
                 <ul class="details-hb clearfix">
@@ -46,7 +46,7 @@
     <div class="details-box">
         <h2>专家简介</h2>
         <div class="details-con">
-            <p>10余年人力资源从业经验，精专于招聘模块，现任爱奇艺招聘经理，全面负责爱奇艺招聘平台建设、招聘项目运营、雇主品牌推广等相关工作，在服务爱奇艺之前曾参与过中国移动、阿里巴巴、新浪等众多知名企业的校园招聘工作。</p>
+            <p>从一名准记者转战人力资源，从乙方到甲方，从雇主品牌到招聘，职业发展或许更多的是“从心”。</p>
         </div>
     </div>
     <div class="details-box">
@@ -65,5 +65,44 @@
         <p>长按识别二维码</p>
     </div>
 </section>
+<script src="js/zepto.js"></script>
+<script>
+    $(function(){
+        var textBox = $(".details-con"),
+            showBtn=$('#show-btn'),
+            str = textBox.html(),
+            newStr = cutString(str,400);
+        textBox.html('<p>' + newStr + '</p>');
+        showBtn.tap(function(){
+            var icon=$('.arrow');
+            if(icon.hasClass('arrow-top')){
+                showBtn.html('展开更多<i class="arrow"></i>');
+                textBox.html(newStr);
+            }else{
+                showBtn.html('收起<i class="arrow arrow-top"></i>');
+                textBox.html(str);
+            }
+        });
+    });
+    function cutString(str, len) {
+        var strlen = 0;
+        var s = "";
+        for (var i = 0; i < str.length; i++) {
+            s = s + str.charAt(i);
+            if (str.charCodeAt(i) > 128) {
+                strlen = strlen + 2;
+                if (strlen >= len) {
+                    return s.substring(0, s.length - 1) + "...";
+                }
+            } else {
+                strlen = strlen + 1;
+                if (strlen >= len) {
+                    return s.substring(0, s.length - 2) + "...";
+                }
+            }
+        }
+        return s;
+    }
+</script>
 </body>
 </html>

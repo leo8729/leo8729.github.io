@@ -30,11 +30,10 @@
                 </div>
                 <h1>如何确定职业生涯发展的方向</h1>
                 <ul class="lists-row2 clearfix">
-                    <li>李科</li>
-                    <li>百度HR、资深经理人</li>
-                    <li>《传人》作者</li>
+                    <li>柏慧</li>
+                    <li>搜狐集团招聘及雇主品牌主管</li>
                 </ul>
-                <p class="details-time">咨询时间：3月18日10:00-17:00</p>
+                <p class="details-time">咨询时间：3月23日19:00-22:00</p>
             </div>
             <div class="details-info-bottom">
                 <ul class="details-hb clearfix">
@@ -47,13 +46,8 @@
     <div class="details-box">
         <h2>专家简介</h2>
         <div class="details-con">
-            <p>佐藤大是当红日本设计工作室 nendo 的创始人。他凭借对设计的热情和对事物不断的思考，创作出来的作品常常给人以惊喜。</p>
-            <p>佐藤大于 1977 年出生在加拿大多伦多，10 岁回到日本定居。他在 2000 年以第一名的成绩毕业于早稻田建筑专业，是个不折不扣的学霸。之后在 2002 年完成硕士课程，和朋友们去了米兰毕业旅行。</p>
-            <p>当时在米兰，他们还参观了米兰国际家具展。当他见到众多世界顶尖的设计师，看到了他们的作品，便决心「一定要让自己的作品也在这里参展」</p>
-            <p>佐藤大于 1977 年出生在加拿大多伦多，10 岁回到日本定居。他在 2000 年以第一名的成绩毕业于早稻田建筑专业，是个不折不扣的学霸。之后在 2002 年完成硕士课程，和朋友们去了米兰毕业旅行。</p>
-            <p>当时在米兰，他们还参观了米兰国际家具展。当他见到众多世界顶尖的设计师，看到了他们的作品，便决心「一定要让自己的作品也在这里参展」</p>
+            <p>从一名准记者转战人力资源，从乙方到甲方，从雇主品牌到招聘，职业发展或许更多的是“从心”。</p>
         </div>
-        <div class="details-show-btn"><div id="show-btn">展开更多<i class="arrow"></i></div></div>
     </div>
     <div class="details-box">
         <h2>预约须知</h2>
@@ -71,44 +65,5 @@
         <p>长按识别二维码</p>
     </div>
 </section>
-<script src="js/zepto.js"></script>
-<script>
-    $(function(){
-        var textBox = $(".details-con"),
-            showBtn=$('#show-btn'),
-            str = textBox.html(),
-            newStr = cutString(str,400);
-        textBox.html('<p>' + newStr + '</p>');
-        showBtn.tap(function(){
-            var icon=$('.arrow');
-            if(icon.hasClass('arrow-top')){
-                showBtn.html('展开更多<i class="arrow"></i>');
-                textBox.html(newStr);
-            }else{
-                showBtn.html('收起<i class="arrow arrow-top"></i>');
-                textBox.html(str);
-            }
-        });
-    });
-    function cutString(str, len) {
-        var strlen = 0;
-        var s = "";
-        for (var i = 0; i < str.length; i++) {
-            s = s + str.charAt(i);
-            if (str.charCodeAt(i) > 128) {
-                strlen = strlen + 2;
-                if (strlen >= len) {
-                    return s.substring(0, s.length - 1) + "...";
-                }
-            } else {
-                strlen = strlen + 1;
-                if (strlen >= len) {
-                    return s.substring(0, s.length - 2) + "...";
-                }
-            }
-        }
-        return s;
-    }
-</script>
 </body>
 </html>
