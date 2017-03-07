@@ -313,7 +313,7 @@ html{font-size:10px}
     position:absolute;
     top:50%; right:5%;
     display:block;
-    width:16px; height:16px;
+    width:14px; height:14px;
     background:url(../img/x.png) no-repeat;
     background-size: cover;
     transform:translateY(-50%);
