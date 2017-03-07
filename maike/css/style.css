@@ -223,15 +223,13 @@ html{font-size:10px}
 }
 
 .details-con,.details-order{
-    padding:3%;
-}
-.details-con{
-
+    padding:3% 3% 5%;
 }
 .details-con>p{
     margin-bottom:10px;
     font-size:1.4rem;
     color:#555;
+    text-align:justify;
 }
 .details-show-btn{
     text-align: center;
@@ -261,6 +259,7 @@ html{font-size:10px}
     margin-left: 1em;
     color: #555;
     font-size: 1.4rem;
+    text-align:justify;
 }
 .blue{
     color:#2a3685
