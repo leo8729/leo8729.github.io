@@ -276,7 +276,7 @@ html{font-size:10px}
     margin:40px 0;
 }
 .ewm>img{
-    width:40%;
+    width:50%;
 }
 
 /*consult*/
@@ -306,21 +306,21 @@ html{font-size:10px}
     width:100%;
     font-size:1.4rem;
     color:#fff;
-    padding:10px 0 10px 5%;
+    padding:14px 0 14px 5%;
     border-bottom:1px solid rgba(221,221,221,.3);
 }
 .cha{
     position:absolute;
     top:50%; right:5%;
     display:block;
-    width:12px; height:12px;
+    width:16px; height:16px;
     background:url(../img/x.png) no-repeat;
     background-size: cover;
     transform:translateY(-50%);
 }
 .consult-con{
     color:#fff;
-    padding:0 5% 90px; margin-top:56px;
+    padding:0 5% 90px; margin-top:65px;
     text-align: justify;
     height:100%;
     overflow-y:auto;

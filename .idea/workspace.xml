@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3fb508-1b8d-4981-8cfb-08061efce145" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/css/style.css" afterPath="$PROJECT_DIR$/maike/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/details1.html" afterPath="$PROJECT_DIR$/maike/details1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/details2.html" afterPath="$PROJECT_DIR$/maike/details2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/details3.html" afterPath="$PROJECT_DIR$/maike/details3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/details4.html" afterPath="$PROJECT_DIR$/maike/details4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/details5.html" afterPath="$PROJECT_DIR$/maike/details5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/details6.html" afterPath="$PROJECT_DIR$/maike/details6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike/index.html" afterPath="$PROJECT_DIR$/maike/index.html" />
     </list>
     <ignored path="leo8729.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,14 +29,24 @@
     <favorites_list name="leo8729.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5925926">
+    <splitter split-orientation="horizontal" split-proportion="0.5374001">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/maike/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.46708465">
-                  <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+                <state vertical-scroll-proportion="-0.9122257">
+                  <caret line="123" column="22" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/maike/details.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -38,8 +55,8 @@
           <file leaf-file-name="details1.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/maike/details1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.206897">
-                  <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="41" />
+                <state vertical-scroll-proportion="-7.4827585">
+                  <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -48,8 +65,8 @@
           <file leaf-file-name="details2.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/maike/details2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31034482">
-                  <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+                <state vertical-scroll-proportion="-12.551724">
+                  <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -58,8 +75,8 @@
           <file leaf-file-name="details3.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/maike/details3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31034482">
-                  <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+                <state vertical-scroll-proportion="-13.931034">
+                  <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -68,8 +85,8 @@
           <file leaf-file-name="details4.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/maike/details4.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31034482">
-                  <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+                <state vertical-scroll-proportion="-13.931034">
+                  <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +95,8 @@
           <file leaf-file-name="details5.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/maike/details5.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31034482">
-                  <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+                <state vertical-scroll-proportion="-8.413794">
+                  <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -88,8 +105,8 @@
           <file leaf-file-name="details6.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/maike/details6.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.793103">
-                  <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+                <state vertical-scroll-proportion="-13.103448">
+                  <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -102,8 +119,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/maike/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42278862">
-                  <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.21289356">
+                  <caret line="308" column="27" selection-start-line="308" selection-start-column="27" selection-end-line="308" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -123,12 +140,12 @@
         <option value="$PROJECT_DIR$/maike/details.html" />
         <option value="$PROJECT_DIR$/maike/details7.html" />
         <option value="$PROJECT_DIR$/maike/details1.html" />
-        <option value="$PROJECT_DIR$/maike/details2.html" />
-        <option value="$PROJECT_DIR$/maike/details3.html" />
-        <option value="$PROJECT_DIR$/maike/details4.html" />
-        <option value="$PROJECT_DIR$/maike/details5.html" />
-        <option value="$PROJECT_DIR$/maike/details6.html" />
         <option value="$PROJECT_DIR$/maike/index.html" />
+        <option value="$PROJECT_DIR$/maike/details5.html" />
+        <option value="$PROJECT_DIR$/maike/details3.html" />
+        <option value="$PROJECT_DIR$/maike/details6.html" />
+        <option value="$PROJECT_DIR$/maike/details4.html" />
+        <option value="$PROJECT_DIR$/maike/details2.html" />
         <option value="$PROJECT_DIR$/maike/css/style.css" />
       </list>
     </option>
@@ -392,46 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maike/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maike/details2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31034482">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maike/details3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31034482">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maike/details4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31034482">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maike/details5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31034482">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maike/details7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -448,34 +425,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maike/details6.html">
+    <entry file="file://$PROJECT_DIR$/maike/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.793103">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maike/details5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.413794">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maike/details3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.931034">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maike/details1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.206897">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="41" />
+        <state vertical-scroll-proportion="-7.4827585">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maike/details6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.103448">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maike/details4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.931034">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maike/details2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.551724">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maike/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46708465">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        <state vertical-scroll-proportion="-0.9122257">
+          <caret line="123" column="22" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maike/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42278862">
-          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.21289356">
+          <caret line="308" column="27" selection-start-line="308" selection-start-column="27" selection-end-line="308" selection-end-column="27" />
           <folding />
         </state>
       </provider>
