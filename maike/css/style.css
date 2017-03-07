@@ -270,13 +270,13 @@ html{font-size:10px}
 .ewm{
     text-align: center;
     line-height: 1.6;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color:#fff;
     margin:40px 0;
 }
 .ewm>img{
     /*padding:40px 0;*/
-    width:40%;
+    width:50%;
 }
 .ewm>p{
     /*margin-top:-40px;*/
