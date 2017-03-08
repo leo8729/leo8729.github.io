@@ -67,11 +67,11 @@
         .details-order>ul{text-indent:-.9em;margin-left:1em;color:#555;font-size:1.4rem;text-align:justify}
         .details-order>ul>li{margin-bottom:8px}
         .blue{color:#2a3685}
-        .ewm{text-align:center;line-height:1.6;font-size:1.4rem;color:#fff;margin:40px 0}
-        .ewm>img{width:55%}
+        .ewm{text-align:center;line-height:1.6;font-size:1.4rem;color:#fff;margin:0 0 40px;padding-top:40px; position:relative;}
+        .ewm>img{width:45%}
+        .ewm .hidden{background:red; position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%; opacity:0;}
         .t1{width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
         @media screen and (min-width:370px){.t1{width:auto}
-        }
     </style>
 </head>
 <body>
@@ -125,6 +125,7 @@
     <div class="ewm">
         <img src="img/ewm.jpg" alt="">
         <p>长按识别二维码</p>
+        <div class="hidden"><img src="img/ewm.jpg" alt=""></div>
     </div>
 </section>
 </body>
