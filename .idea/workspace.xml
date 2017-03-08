@@ -36,12 +36,13 @@
       <file leaf-file-name="details1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maike/details1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40029985">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37031484">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="4" selection-end-line="82" selection-end-column="13" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1488947079132" expanded="true" signature="4692:4895" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -369,6 +370,7 @@
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1488947079132" expanded="true" signature="4692:4895" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -455,6 +457,7 @@
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1488947079132" expanded="true" signature="4692:4895" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -589,12 +592,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maike/details1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40029985">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37031484">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="4" selection-end-line="82" selection-end-column="13" />
           <folding>
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1488947079132" expanded="true" signature="4692:4895" placeholder="..." />
           </folding>
         </state>
       </provider>
