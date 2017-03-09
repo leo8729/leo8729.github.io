@@ -50,7 +50,7 @@
         .payment-btn{float:right;display:block;width:40%;background:#f7c71a;color:#fff;text-align:center;font-size:1.6rem}
         .payment-btn:hover{color:#fff}
         .details-box,.details-header{background:#fff;box-shadow:0 5px 5px #222c6c;margin-bottom:15px}
-        .details{width:94%;margin:10px auto 80px}
+        .details{width:94%;margin:10px auto 90px}
         .details-header{box-sizing:border-box;border:1px solid #fff}
         .details-header img{display:block;width:100%}
         .details-info{padding:3%;background:#fff;border-top:1px solid #ddd}
@@ -58,26 +58,27 @@
         .details-info-top{position:relative}
         .details-info-top h1{font-size:1.5rem;padding-right:70px;color:#333}
         .details-time{font-size:1.3rem;color:#909090;margin:10px 0 15px}
-        .details-info-bottom{border-top:1px dotted #eee;padding-top:10px;color:#b5b5b5;font-size:1.1rem}
-        .details-hb-left{float:left;text-align:left}
-        .details-hb-right{float:right;text-align:right}
+        .details-info-bottom{border-top:1px dotted #eee;padding-top:10px;color:#909090;font-size:1.1rem}
+        .details-hb-left{float:left;text-align:left;background:url(img/icon2.png) no-repeat 0 center;background-size: 1.1rem;padding-left:1.4rem;}
+        .details-hb-right{float:right;text-align:right;background:url(img/icon1.png) no-repeat 0 center;background-size: 1.1rem;padding-left:1.4rem;}
         .details-box>h2{padding:10px 0 10px 3%;border-bottom:1px solid #ddd}
         .details-con,.details-order{padding:3% 3% 5%}
         .details-con>p{margin-bottom:10px;font-size:1.4rem;color:#555;text-align:justify}
         .details-order>ul{text-indent:-.9em;margin-left:1em;color:#555;font-size:1.4rem;text-align:justify}
-        .details-order>ul>li{margin-bottom:8px}
+        .details-order>ul>li{margin-bottom:10px}
         .blue{color:#2a3685}
-        .ewm{text-align:center;line-height:1.6;font-size:1.4rem;color:#fff;margin:0 0 40px;padding-top:40px; position:relative;}
-        .ewm>img{width:45%}
+        .ewm{text-align:center;line-height:1.6;font-size:1.4rem;color:#fff;margin:0 0 40px;padding-top:40px; position:relative; overflow:hidden}
+        .ewm>img{width:40%}
         .ewm .hidden{background:red; position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%; opacity:0;}
         .t1{width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
         @media screen and (min-width:370px){.t1{width:auto}
+        }
     </style>
 </head>
 <body>
 <footer class="payment clearfix">
     <a href="http://cn.mikecrm.com/JATS8Ll" class="payment-btn">立即预约付款</a>
-    <div class="payment-price"><span class="unit">￥</span><span class="price">9.9</span>/次</div>
+    <div class="payment-price"><span class="unit">￥</span><span class="price">19.8</span>/次</div>
 </footer>
 <section class="details">
     <div class="details-header">
@@ -87,7 +88,7 @@
         <div class="details-info">
             <div class="details-info-top">
                 <div class="details-price">
-                    <span class="red unit">￥</span><span class="red price">9.9</span>/次
+                    <span class="red unit">￥</span><span class="red price">19.8</span>/次
                 </div>
                 <h1>职业生涯规划，帮你实现职场梦</h1>
                 <ul class="lists-row2 clearfix">
@@ -118,16 +119,17 @@
         <h2>预约须知</h2>
         <div class="details-order">
             <ul>
-                <li>1.付款后，学员需在预约时间与专家电话沟通。</li>
-                <li>2.若预约时间结束专家未致电，可联系客服退款；<br>若学员时间有变，可在约定通话时间前24小时联系客服取消预约并要求退款。</li>
-                <li>3.有任何问题，<span class="blue">扫描下方二维码</span>添加客服微信进行沟通。<br>客服工作时间 9:00-18:00
-                </li>
+                <li>1.在预约页预约心仪老师的时间并提交报名表；</li>
+                <li>2.付款后，学员需在选择的时间等待与专家电话沟通40分钟;</li>
+                <li>3.如有需要补充的报名信息（如简历）请在开课前添加客服微信进行提交;</li>
+                <li>4.若过了通话时间专家没有致电，可联系客服退款；若学员时间有变，可在约定通话时间前24小时联系客服取消预约并要求退款;</li>
+                <li>5.有任何问题可<span class="blue">扫描下方二维码</span>添加客服微信进行沟通。客服工作日 9:00-18:00</li>
             </ul>
         </div>
     </div>
     <div class="ewm">
         <img src="img/ewm.jpg" alt="">
-        <p>长按识别二维码</p>
+        <p>长按识别二维码添加客服</p>
         <div class="hidden"><img src="img/ewm.jpg" alt=""></div>
     </div>
 </section>
