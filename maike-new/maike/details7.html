@@ -37,6 +37,26 @@
         }
         @media screen and (min-width:800px){html{font-size:25px}
         }
+        .details-tit{
+            position:fixed;
+            top:0; left:0; z-index: 100;
+            width:100%; text-align: center;
+            color:#fff;
+            box-shadow:0 5px 5px #222c6c;
+            font-size:2rem; padding:10px 0;
+            background-color:#2a3685;
+        }
+        .details-tit>div{position: relative; height:100%;}
+        .details-arrow{
+            position:absolute;
+            top:50%; left:5%;
+            transform: translateY(-50%);
+            display:inline-block;
+            width:26px;
+            height: 20px;
+            background: url("img/return.png") no-repeat;
+            background-size:cover;
+        }
         .lists-row2,.lists-row3{margin-left:-8px;margin-top:8px;vertical-align:bottom}
         .lists-row2>li,.lists-row3>li{padding:0 8px;position:relative;line-height:1}
         .lists-row2>li{float:left;font-size:1.3rem;color:#707070}
@@ -50,7 +70,7 @@
         .payment-btn{float:right;display:block;width:40%;background:#f7c71a;color:#fff;text-align:center;font-size:1.6rem}
         .payment-btn:hover{color:#fff}
         .details-box,.details-header{background:#fff;box-shadow:0 5px 5px #222c6c;margin-bottom:15px}
-        .details{width:94%;margin:10px auto 90px}
+        .details{width:94%;margin:62px auto 90px}
         .details-header{box-sizing:border-box;border:1px solid #fff}
         .details-header img{display:block;width:100%}
         .details-info{padding:3%;background:#fff;border-top:1px solid #ddd}
@@ -89,7 +109,7 @@
 <body>
 <footer class="payment clearfix">
     <a href="http://cn.mikecrm.com/rlW400o" class="payment-btn">立即预约付款</a>
-    <div class="payment-price"><span class="unit">￥</span><span class="price">19.8</span>/次</div>
+    <div class="payment-price"><span class="unit">￥</span><span class="price">9.9</span>/次</div>
 </footer>
 <section class="details">
     <div class="details-header">
@@ -99,7 +119,7 @@
         <div class="details-info">
             <div class="details-info-top">
                 <div class="details-price">
-                    <span class="red unit">￥</span><span class="red price">19.8</span>/次
+                    <span class="red unit">￥</span><span class="red price">9.9</span>/次
                 </div>
                 <h1>HR教你如何做好职业规划</h1>
                 <ul class="lists-row2 clearfix">
