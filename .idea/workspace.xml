@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3fb508-1b8d-4981-8cfb-08061efce145" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike-new/maike/index.html" afterPath="$PROJECT_DIR$/maike-new/maike/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maike-new/maike/details1.html" afterPath="$PROJECT_DIR$/maike-new/maike/details1.html" />
     </list>
     <ignored path="leo8729.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maike-new/maike/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5451937">
-              <caret line="48" column="173" selection-start-line="48" selection-start-column="173" selection-end-line="48" selection-end-column="173" />
+            <state vertical-scroll-proportion="-6.206897">
+              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="details1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maike-new/maike/details1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.745763">
-              <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.4497751">
+              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
         <option value="$PROJECT_DIR$/maike/details7.html" />
         <option value="$PROJECT_DIR$/maike/details1.html" />
         <option value="$USER_HOME$/Desktop/unniversity.json" />
-        <option value="$PROJECT_DIR$/maike-new/maike/details1.html" />
         <option value="$PROJECT_DIR$/maike-new/maike/index.html" />
+        <option value="$PROJECT_DIR$/maike-new/maike/details1.html" />
       </list>
     </option>
   </component>
@@ -607,18 +607,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maike-new/maike/details1.html">
+    <entry file="file://$PROJECT_DIR$/maike-new/maike/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.745763">
-          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+        <state vertical-scroll-proportion="-6.206897">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maike-new/maike/index.html">
+    <entry file="file://$PROJECT_DIR$/maike-new/maike/details1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5451937">
-          <caret line="48" column="173" selection-start-line="48" selection-start-column="173" selection-end-line="48" selection-end-column="173" />
+        <state vertical-scroll-proportion="0.4497751">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
           <folding />
         </state>
       </provider>
