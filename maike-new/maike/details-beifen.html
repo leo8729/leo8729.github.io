@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>专家详情</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords"
+          content="迷你校,校招,校园招聘,迷你校校招,迷你校招聘,迷你校校园招聘,互联网招聘,迷你校互联网招聘,菁英圈,迷你校菁英圈,精英圈,迷你校精英圈,内推,迷你校内推,名企内推,移动互联网招聘,垂直互联网招聘,微信招聘,微博招聘,跳槽,高薪职位,互联网圈子,IT招聘,职场招聘,猎头招聘,O2O招聘,LBS招聘,社会招聘,社招,迷你校官网,迷你校百科">
+    <meta name="description" content="汇聚青年菁英，帮助学生成长，专注校园服务">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+    *{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body,dd,dl,form,h1,h2,h3,h4,h5,h6,p{margin:0}
+ul{list-style:none;margin:0;padding:0}
+a{text-decoration:none;color:#464646;outline:0;-webkit-tap-highlight-color:transparent;display:block;}
+html{font-family:'Microsoft YaHei',Helvetica,sans-serif;background-color:#2a3685;}
+img{width:100%;border:none;outline:0;}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+body{font-family:Helvetica;}
+html{font-size:10px}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}
+
+.theme-banner,.footer-img{width:100%; position: relative}
+.theme-banner img,.footer-img img{display:block;width:100%}
+
+.lists-wrap{
+    width:94%; margin:0 auto;
+}
+.lists-tit{
+    margin:6px 0 10px;
+    border-left:2px solid #f6c81e;
+    padding-left:10px;
+    font-size:1.4rem;
+    color:#fff;
+    line-height: 1;
+}
+.lists>li{
+    margin:0 0 12px;
+    background:#fff;
+    overflow:hidden;
+    box-shadow:0 5px 5px #222c6c;
+    position:relative;
+    padding:12px 10px;
+}
+.lists-headimg{
+    position:absolute;
+    width:90px; height:90px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.lists-headimg img{
+    width:90px; height:90px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.lists-main{
+    margin-left:100px;
+    min-height:90px;
+}
+.lists-main h3{
+    font-size:1.4rem;
+    display:inline;
+    color:#464646;
+    margin-right:10px;
+}
+.lists-main h4{
+    font-size:1.2rem;
+    display:inline-block;
+    color:#707070;
+    background:url("img/mk-icon.png") no-repeat 0 center;
+    background-size:10px;
+    padding-left:12px;
+    font-weight:normal;
+}
+.lists-row22{
+    margin-top:8px;
+    vertical-align:bottom;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size:1.3rem;
+    color:#707070;
+    line-height: 1;
+}
+.lists-row22>span{
+    padding-right:4px;
+    position:relative;
+}
+.lists-row22>span+span{
+    padding-left:8px;
+    border-left:1px solid #ddd;
+}
+.lists-row2,.lists-row3{
+    margin-left:-8px;
+    margin-top:8px;
+    vertical-align:bottom;
+}
+.lists-row2>li,.lists-row3>li{
+    padding:0 8px;
+    position:relative;
+    line-height: 1;
+}
+.lists-row2>li{
+    float:left;
+    font-size:1.3rem;
+    color:#707070;
+}
+.lists-row3>li{
+    display:inline-block;
+    font-size:1.1rem;
+    color:#909090;
+    vertical-align:bottom;
+}
+.lists-row2>li+li:before{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 1.1rem;
+    background: #ddd;
+    position: absolute;
+    left: 0;
+    top: 0.03rem;
+}
+.lists-row3>li+li{
+    padding:0 12px;
+}
+
+.red{
+    color:#f23023;
+}
+.unit{
+    font-size:1.2rem
+}
+.price{
+    font-size:1.6rem
+}
+
+
+
+/*details*/
+.payment{
+    position:fixed;
+    bottom:0; left:0;
+    z-index: 100;
+    height: 50px; width:100%;
+    line-height: 50px;
+    background:#707070
+}
+.payment-price{
+    padding-left:5%;
+    color:#fff;
+}
+.payment-price .price{
+    font-size:1.8rem
+}
+.payment-btn{
+    float:right;
+    display:block;
+    width:40%;
+    background:#f7c71a;
+    color:#fff;
+    text-align: center;
+    font-size:1.6rem;
+}
+.payment-btn:hover{
+    color:#fff;
+}
+
+.details-header,.details-box{background:#fff;box-shadow:0 5px 5px #222c6c; margin-bottom:15px;}
+
+.details{
+    width:94%;
+    margin:10px auto 80px;
+
+}
+.details-header{
+    box-sizing: border-box;
+    border:1px solid #fff;
+}
+.details-header img{
+    display:block;width:100%
+}
+
+.details-info{
+    padding:3%;
+    background:#fff;
+    border-top:1px solid #ddd;
+}
+.details-price{
+    position: absolute;
+    top:0; right:0;
+    color:#909090;
+}
+.details-info-top{
+    position: relative;
+}
+.details-info-top h1{
+    font-size:1.5rem;
+    padding-right: 70px;
+    color:#333;
+}
+.details-time{
+    font-size: 1.3rem;
+    color:#909090;
+    margin:10px 0 15px;
+}
+.details-info-bottom{
+    border-top:1px dotted #eee;
+    padding-top:10px;
+    color:#b5b5b5;
+    font-size:1.1rem;
+}
+.details-hb-left{
+    float:left;
+    text-align: left;
+}
+.details-hb-right{
+    float:right;
+    text-align: right;
+}
+.details-hb-center{
+    text-align: center;
+}
+
+.details-box>h2{
+    padding:10px 0 10px 3%;
+    border-bottom:1px solid #ddd;
+}
+
+.details-con,.details-order{
+    padding:3% 3% 5%;
+}
+.details-con>p{
+    margin-bottom:10px;
+    font-size:1.4rem;
+    color:#555;
+    text-align:justify;
+}
+.details-show-btn{
+    text-align: center;
+    color:#707070;
+    font-size: 1.3rem;
+    padding:10px 0;
+    border-top:1px solid #ddd;
+}
+#show-btn{
+    display:inline-block;
+    padding:5px 20px;
+}
+.arrow{
+    display:inline-block;
+    width:12px; height:6px;
+    background:url("img/arrow.png") no-repeat;
+    background-size:cover;
+    margin-bottom:1px;
+    margin-left:4px;
+    transition: transform .3s;
+}
+.arrow.arrow-top{
+    transform: rotate(180deg);
+}
+.details-order>ul{
+    text-indent: -0.9em;
+    margin-left: 1em;
+    color: #555;
+    font-size: 1.4rem;
+    text-align:justify;
+}
+.details-order>ul>li{
+    margin-bottom:8px;
+}
+.blue{
+    color:#2a3685
+}
+.ewm{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    color:#fff;
+    margin:40px 0;
+}
+.ewm>img{
+    width:55%;
+}
+
+/*consult*/
+.blur-box{-webkit-filter: blur(10px);}
+.consult-btn{
+    position: absolute;
+    right: 2%;
+    top: 18%;
+    width: 18.6%;
+    height: 10%;
+}
+.consult{
+    position:fixed;
+    width:100%; height:100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: 510;
+    font-size:1.4rem;
+    background:rgba(112,112,112,0.9);
+    display:none;
+}
+.consult>h2{
+    position:fixed;
+    top:0; left:0; right:0;
+    width:100%;
+    font-size:1.4rem;
+    color:#fff;
+    padding:14px 0 14px 5%;
+    border-bottom:1px solid rgba(221,221,221,.3);
+}
+.cha{
+    position:absolute;
+    top:50%; right:5%;
+    display:block;
+    width:14px; height:14px;
+    background:url(img/x.png) no-repeat;
+    background-size: cover;
+    transform:translateY(-50%);
+}
+.consult-con{
+    color:#fff;
+    padding:0 5% 90px; margin-top:65px;
+    text-align: justify;
+    height:100%;
+    overflow-y:auto;
+}
+.consult-con>h3{
+    font-size:1.4rem;
+    font-weight:normal;
+    margin-bottom:10px;
+}
+.consult-con>p{
+    margin-bottom:20px;
+}
+
+
+.t1{
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media screen and (min-width:370px) {.t1{width:auto;}}
+    </style>
+    <script>
+        //全局性参数
+        /* 百度统计相关代码  */
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?20a79f7b349226a5c83f93586fa2337e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<footer class="payment clearfix">
+    <a href="http://cn.mikecrm.com/ZWi6Lr1" class="payment-btn">立即预约付款</a>
+    <div class="payment-price"><span class="unit">￥</span><span class="price">9.9</span>/次</div>
+</footer>
+<section class="details">
+    <div class="details-header">
+        <div class="details-img">
+            <img src="img/detailsimg/image-baihui.png" alt="">
+        </div>
+        <div class="details-info">
+            <div class="details-info-top">
+                <div class="details-price">
+                    <span class="red unit">￥</span><span class="red price">9.9</span>/次
+                </div>
+                <h1>如何确定职业生涯发展的方向</h1>
+                <ul class="lists-row2 clearfix">
+                    <li>柏慧</li>
+                    <li>搜狐集团招聘及雇主品牌主管</li>
+                </ul>
+                <p class="details-time">咨询时间：3月23日19:00-22:00</p>
+            </div>
+            <div class="details-info-bottom">
+                <ul class="details-hb clearfix">
+                    <li class="details-hb-left">时长:30分钟语音</li>
+                    <li class="details-hb-right">2340人预约过</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="details-box">
+        <h2>专家简介</h2>
+        <div class="details-con">
+            <p>从一名准记者转战人力资源，从乙方到甲方，从雇主品牌到招聘，职业发展或许更多的是“从心”。</p>
+        </div>
+    </div>
+    <div class="details-box">
+        <h2>预约须知</h2>
+        <div class="details-order">
+            <ul>
+                <li>1.付款后，学员需在选择的时间等待与专家电话沟通。</li>
+                <li>2.若过了通话时间专家没有致电，可联系客服退款；<br>若学员时间有变，可在约定通话时间前24小时联系客服取消预约并要求退款。</li>
+                <li>3.有任何问题，<span class="blue">扫描下方二维码</span>添加客服微信进行沟通。<br>客服工作时间 9:00-18:00
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="ewm">
+        <img src="img/ewm.jpg" alt="">
+        <p>长按识别二维码</p>
+    </div>
+</section>
+<script src="js/zepto.js"></script>
+<script>
+    $(function(){
+        var textBox = $(".details-con"),
+            showBtn=$('#show-btn'),
+            str = textBox.html(),
+            newStr = cutString(str,400);
+        textBox.html('<p>' + newStr + '</p>');
+        showBtn.tap(function(){
+            var icon=$('.arrow');
+            if(icon.hasClass('arrow-top')){
+                showBtn.html('展开更多<i class="arrow"></i>');
+                textBox.html(newStr);
+            }else{
+                showBtn.html('收起<i class="arrow arrow-top"></i>');
+                textBox.html(str);
+            }
+        });
+    });
+    function cutString(str, len) {
+        var strlen = 0;
+        var s = "";
+        for (var i = 0; i < str.length; i++) {
+            s = s + str.charAt(i);
+            if (str.charCodeAt(i) > 128) {
+                strlen = strlen + 2;
+                if (strlen >= len) {
+                    return s.substring(0, s.length - 1) + "...";
+                }
+            } else {
+                strlen = strlen + 1;
+                if (strlen >= len) {
+                    return s.substring(0, s.length - 2) + "...";
+                }
+            }
+        }
+        return s;
+    }
+</script>
+</body>
+</html>

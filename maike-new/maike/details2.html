@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>专家详情</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords"
+          content="迷你校,校招,校园招聘,迷你校校招,迷你校招聘,迷你校校园招聘,互联网招聘,迷你校互联网招聘,菁英圈,迷你校菁英圈,精英圈,迷你校精英圈,内推,迷你校内推,名企内推,移动互联网招聘,垂直互联网招聘,微信招聘,微博招聘,跳槽,高薪职位,互联网圈子,IT招聘,职场招聘,猎头招聘,O2O招聘,LBS招聘,社会招聘,社招,迷你校官网,迷你校百科">
+    <meta name="description" content="汇聚青年菁英，帮助学生成长，专注校园服务">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+    <style>
+        *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+        body,dd,dl,form,h1,h2,h3,h4,h5,h6,p{margin:0}
+        ul{list-style:none;margin:0;padding:0}
+        a{text-decoration:none;color:#464646;outline:0;-webkit-tap-highlight-color:transparent;display:block}
+        html{font-family:'Microsoft YaHei',Helvetica,sans-serif;background-color:#2a3685}
+        img{width:100%;border:none;outline:0}
+        .clearfix:after,.clearfix:before{content:"";display:table}
+        .clearfix:after{clear:both}
+        body{font-family:Helvetica}
+        html{font-size:10px}
+        @media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}
+        }
+        @media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}
+        }
+        @media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}
+        }
+        @media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}
+        }
+        @media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}
+        }
+        @media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}
+        }
+        @media screen and (min-width:800px){html{font-size:25px}
+        }
+        .lists-row2,.lists-row3{margin-left:-8px;margin-top:8px;vertical-align:bottom}
+        .lists-row2>li,.lists-row3>li{padding:0 8px;position:relative;line-height:1}
+        .lists-row2>li{float:left;font-size:1.3rem;color:#707070}
+        .lists-row2>li+li:before{content:'';display:block;width:1px;height:1.1rem;background:#ddd;position:absolute;left:0;top:.03rem}
+        .red{color:#f23023}
+        .unit{font-size:1.2rem}
+        .price{font-size:1.6rem}
+        .payment{position:fixed;bottom:0;left:0;z-index:100;height:50px;width:100%;line-height:50px;background:#707070}
+        .payment-price{padding-left:5%;color:#fff}
+        .payment-price .price{font-size:1.8rem}
+        .payment-btn{float:right;display:block;width:40%;background:#f7c71a;color:#fff;text-align:center;font-size:1.6rem}
+        .payment-btn:hover{color:#fff}
+        .details-box,.details-header{background:#fff;box-shadow:0 5px 5px #222c6c;margin-bottom:15px}
+        .details{width:94%;margin:10px auto 90px}
+        .details-header{box-sizing:border-box;border:1px solid #fff}
+        .details-header img{display:block;width:100%}
+        .details-info{padding:3%;background:#fff;border-top:1px solid #ddd}
+        .details-price{position:absolute;top:0;right:0;color:#909090}
+        .details-info-top{position:relative}
+        .details-info-top h1{font-size:1.5rem;padding-right:70px;color:#333}
+        .details-time{font-size:1.3rem;color:#909090;margin:10px 0 15px}
+        .details-info-bottom{border-top:1px dotted #eee;padding-top:10px;color:#909090;font-size:1.1rem}
+        .details-hb-left{float:left;text-align:left;background:url(img/icon2.png) no-repeat 0 center;background-size: 1.1rem;padding-left:1.4rem;}
+        .details-hb-right{float:right;text-align:right;background:url(img/icon1.png) no-repeat 0 center;background-size: 1.1rem;padding-left:1.4rem;}
+        .details-box>h2{padding:10px 0 10px 3%;border-bottom:1px solid #ddd}
+        .details-con,.details-order{padding:3% 3% 5%}
+        .details-con>p{margin-bottom:10px;font-size:1.4rem;color:#555;text-align:justify}
+        .details-order>ul{text-indent:-.9em;margin-left:1em;color:#555;font-size:1.4rem;text-align:justify}
+        .details-order>ul>li{margin-bottom:10px}
+        .blue{color:#2a3685}
+        .ewm{text-align:center;line-height:1.6;font-size:1.4rem;color:#fff;margin:0 0 40px;padding-top:40px; position:relative; overflow:hidden}
+        .ewm>img{width:40%}
+        .ewm .hidden{background:red; position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%; opacity:0;}
+        .t1{width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+        @media screen and (min-width:370px){.t1{width:auto}
+        }
+    </style>
+    <script>
+        //全局性参数
+        /* 百度统计相关代码  */
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?20a79f7b349226a5c83f93586fa2337e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<footer class="payment clearfix">
+    <a href="http://cn.mikecrm.com/Uabv3Oa" class="payment-btn">立即预约付款</a>
+    <div class="payment-price"><span class="unit">￥</span><span class="price">19.8</span>/次</div>
+</footer>
+<section class="details">
+    <div class="details-header">
+        <div class="details-img">
+            <img src="img/detailsimg/image-djl.png" alt="">
+        </div>
+        <div class="details-info">
+            <div class="details-info-top">
+                <div class="details-price">
+                    <span class="red unit">￥</span><span class="red price">19.8</span>/次
+                </div>
+                <h1>如何进行职业规划</h1>
+                <ul class="lists-row2 clearfix">
+                    <li>段金龙</li>
+                    <li>爱奇艺招聘经理</li>
+                </ul>
+                <p class="details-time">咨询时间：3月26日19:00-22:00</p>
+            </div>
+            <div class="details-info-bottom">
+                <ul class="details-hb clearfix">
+                    <li class="details-hb-left">40分钟语音</li>
+                    <li class="details-hb-right">5人预约过</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="details-box">
+        <h2>专家简介</h2>
+        <div class="details-con">
+            <p>10余年人力资源从业经验，精专于招聘模块，现任爱奇艺招聘经理，全面负责爱奇艺招聘平台建设、招聘项目运营、雇主品牌推广等相关工作，在服务爱奇艺之前曾参与过中国移动、阿里巴巴、新浪等众多知名企业的校园招聘工作。</p>
+        </div>
+    </div>
+    <div class="details-box">
+        <h2>预约须知</h2>
+        <div class="details-order">
+            <ul>
+                <li>1.在预约页预约心仪老师的时间并提交报名表；</li>
+                <li>2.付款后，学员需在选择的时间等待与专家电话沟通40分钟;</li>
+                <li>3.如有需要补充的报名信息（如简历）请在开课前添加客服微信进行提交;</li>
+                <li>4.若过了通话时间专家没有致电，可联系客服退款；若学员时间有变，可在约定通话时间前24小时联系客服取消预约并要求退款;</li>
+                <li>5.有任何问题可<span class="blue">扫描下方二维码</span>添加客服微信进行沟通，客服工作日 9:00-18:00。</li>
+            </ul>
+        </div>
+    </div>
+    <div class="ewm">
+        <img src="img/ewm.jpg" alt="">
+        <p>长按识别二维码添加客服</p>
+        <div class="hidden"><img src="img/ewm.jpg" alt=""></div>
+    </div>
+</section>
+</body>
+</html>

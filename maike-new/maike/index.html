@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页-迷你校</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="迷你校,校招,校园招聘,迷你校校招,迷你校招聘,迷你校校园招聘,互联网招聘,迷你校互联网招聘,菁英圈,迷你校菁英圈,精英圈,迷你校精英圈,内推,迷你校内推,名企内推,移动互联网招聘,垂直互联网招聘,微信招聘,微博招聘,跳槽,高薪职位,互联网圈子,IT招聘,职场招聘,猎头招聘,O2O招聘,LBS招聘,社会招聘,社招,迷你校官网,迷你校百科">
+    <meta name="description" content="汇聚青年菁英，帮助学生成长，专注校园服务">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css?2017">-->
+    <style>
+        *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+        body,dd,dl,form,h1,h2,h3,h4,h5,h6,p{margin:0}
+        ul{list-style:none;margin:0;padding:0}
+        a{text-decoration:none;color:#464646;outline:0;-webkit-tap-highlight-color:transparent;display:block}
+        html{font-family:'Microsoft YaHei',Helvetica,sans-serif;background-color:#2a3685}
+        img{width:100%;border:none;outline:0}
+        .clearfix:after,.clearfix:before{content:"";display:table}
+        .clearfix:after{clear:both}
+        body{font-family:Helvetica}
+        html{font-size:10px}
+        @media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}
+        }
+        @media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}
+        }
+        @media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}
+        }
+        @media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}
+        }
+        @media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}
+        }
+        @media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}
+        }
+        @media screen and (min-width:800px){html{font-size:25px}
+        }
+        .footer-img,.theme-banner{width:100%;position:relative}
+        .footer-img img,.theme-banner img{display:block;width:100%}
+        .lists-wrap{width:94%;margin:0 auto}
+        .lists-tit{margin:6px 0 10px;border-left:2px solid #f6c81e;padding-left:10px;font-size:1.4rem;color:#fff;line-height:1}
+        .lists>li{margin:0 0 12px;background:#fff;overflow:hidden;box-shadow:0 5px 5px #222c6c;position:relative;padding:12px 10px}
+        .lists-headimg{position:absolute;width:90px;height:90px;border-radius:50%;overflow:hidden}
+        .lists-headimg img{width:90px;height:90px;border-radius:50%;overflow:hidden}
+        .lists-main{margin-left:100px;min-height:90px}
+        .lists-main h3{font-size:1.4rem;display:inline;color:#464646;margin-right:10px}
+        .lists-main h4{font-size:1.2rem;display:inline-block;color:#707070;background:url(img/mk-icon.png) no-repeat 0 center;background-size:10px;padding-left:12px;font-weight:400}
+        .lists-row22{margin-top:8px;vertical-align:bottom;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:1.3rem;color:#707070;line-height:1}
+        .lists-row22>span{padding-right:4px;position:relative}
+        .lists-row22>span+span{padding-left:8px;border-left:1px solid #ddd}
+        .lists-row2,.lists-row3{margin-left:-8px;margin-top:8px;vertical-align:bottom}
+        .lists-row2>li,.lists-row3>li{padding:0 8px;position:relative;line-height:1}
+        .lists-row2>li{float:left;font-size:1.3rem;color:#707070}
+        .lists-row3>li{display:inline-block;font-size:1.1rem;color:#909090;vertical-align:bottom;float: left;text-align: left;line-height: 1.4rem;}
+        .lists-row2>li+li:before{content:'';display:block;width:1px;height:1.1rem;background:#ddd;position:absolute;left:0;top:.03rem}
+        .lists-row3>li+li{padding:0 0 0 12px;float:right;text-align:right;line-height: 1.6rem;}
+        .red{color:#f23023}
+        .unit{font-size:1.2rem}
+        .price{font-size:1.6rem}
+        .blur-box{-webkit-filter:blur(10px)}
+        .consult-btn{position:absolute;right:2%;top:18%;width:18.6%;height:10%}
+        .consult{position:fixed;width:100%;height:100%;top:0;right:0;bottom:0;left:0;z-index:510;font-size:1.4rem;background:rgba(112,112,112,.9);display:none}
+        .consult>h2{position:fixed;top:0;left:0;right:0;width:100%;font-size:1.4rem;color:#fff;padding:14px 0 14px 5%;border-bottom:1px solid rgba(221,221,221,.3)}
+        .cha{position:absolute;top:50%;right:5%;display:block;width:14px;height:14px;background:url(img/x.png) no-repeat;background-size:cover;transform:translateY(-50%)}
+        .consult-con{color:#fff;padding:0 5% 90px;margin-top:65px;text-align:justify;height:100%;overflow-y:auto}
+        .consult-con>h3{font-size:1.4rem;font-weight:400;margin-bottom:10px}
+        .consult-con>p{margin-bottom:20px}
+    </style>
+    <script>
+        //全局性参数
+        /* 百度统计相关代码  */
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?20a79f7b349226a5c83f93586fa2337e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<div class="box">
+    <header class="theme-banner">
+        <div class="consult-btn"></div>
+        <img src="img/mk-header.png" alt="">
+    </header>
+    <section class="lists-wrap">
+        <h2 class="lists-tit">咨询课程</h2>
+        <ul class="lists clearfix">
+            <li>
+                <div class="lists-headimg">
+                    <a href="details7.html">
+                        <img src="img/headimg/tx-ftt.png">
+                    </a>
+                </div>
+                <div class="lists-main">
+                    <a href="details7.html"><h3>HR教你如何做好职业规划</h3>
+                        <h4>3月20日19:00-22:00</h4></a>
+                    <div class="lists-row22">
+                        <span>冯婷婷</span>
+                        <span>乐视集团大数据HRBP,校园招聘高级经理</span>
+                    </div>
+                    <ul class="lists-row3 clearfix">
+                        <li><span class="red unit">￥</span><span class="red price">19.8</span>/次</li>
+                        <li>9人预约过</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="lists-headimg">
+                    <a href="details5.html">
+                        <img src="img/headimg/tx-zwj.png">
+                    </a>
+                </div>
+                <div class="lists-main">
+                    <a href="details5.html"><h3>职业发展规划指导</h3>
+                        <h4>3月21日19:00-22:00</h4></a>
+                    <div class="lists-row22">
+                        <span>周文静</span>
+                        <span>360公司校园招聘高级经理</span>
+                    </div>
+                    <ul class="lists-row3 clearfix">
+                        <li><span class="red unit">￥</span><span class="red price">19.8</span>/次</li>
+                        <li>6人预约过</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="lists-headimg">
+                    <a href="details3.html">
+                        <img src="img/headimg/tx-ly.png">
+                    </a>
+                </div>
+                <div class="lists-main">
+                    <a href="details3.html"><h3>初入职场，未来如何规划？</h3>
+                        <h4>3月22日19:00-22:00</h4></a>
+                    <div class="lists-row22">
+                        <span>兰雨</span>
+                        <span>现任和创金服人力资源总监</span>
+                    </div>
+                    <ul class="lists-row3 clearfix">
+                        <li><span class="red unit">￥</span><span class="red price">19.8</span>/次</li>
+                        <li>8人预约过</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="lists-headimg">
+                    <a href="details1.html">
+                        <img src="img/headimg/tx-bh.png">
+                    </a>
+                </div>
+                <div class="lists-main">
+                    <a href="details1.html"><h3>如何确定职业生涯发展的方向</h3>
+                    <h4>3月23日19:00-22:00</h4></a>
+                    <div class="lists-row22">
+                        <span>柏慧</span>
+                        <span>搜狐集团招聘及雇主品牌主管</span>
+                    </div>
+                    <ul class="lists-row3 clearfix">
+                        <li><span class="red unit">￥</span><span class="red price">19.8</span>/次</li>
+                        <li>8人预约过</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="lists-headimg">
+                    <a href="details6.html">
+                        <img src="img/headimg/tx-yzj.png">
+                    </a>
+                </div>
+                <div class="lists-main">
+                    <a href="details6.html"><h3>大学生职业生涯规划</h3>
+                        <h4>3月24日19:00-22:00</h4></a>
+                    <div class="lists-row22">
+                        <span>杨智杰</span>
+                        <span>网易有道校园招聘负责人</span>
+                    </div>
+                    <ul class="lists-row3 clearfix">
+                        <li><span class="red unit">￥</span><span class="red price">19.8</span>/次</li>
+                        <li>4人预约过</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="lists-headimg">
+                    <a href="details4.html">
+                        <img src="img/headimg/tx-wm.png">
+                    </a>
+                </div>
+                <div class="lists-main">
+                    <a href="details4.html"><h3>职业生涯规划，帮你实现职场梦</h3>
+                        <h4>3月25日19:00-22:00</h4></a>
+                    <div class="lists-row22">
+                        <span>吴牧</span>
+                        <span>搜狗校招负责人</span>
+                    </div>
+                    <ul class="lists-row3 clearfix">
+                        <li><span class="red unit">￥</span><span class="red price">19.8</span>/次</li>
+                        <li>7人预约过</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="lists-headimg">
+                    <a href="details2.html">
+                        <img src="img/headimg/tx-djl.png">
+                    </a>
+                </div>
+                <div class="lists-main">
+                    <a href="details2.html"><h3>如何进行职业规划</h3>
+                    <h4>3月26日19:00-22:00</h4></a>
+                    <div class="lists-row22">
+                        <span>段金龙</span>
+                        <span>爱奇艺招聘经理</span>
+                    </div>
+                    <ul class="lists-row3 clearfix">
+                        <li><span class="red unit">￥</span><span class="red price">19.8</span>/次</li>
+                        <li>5人预约过</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <img src="img/mk-footer.png" alt="">
+    </footer>
+</div>
+<div class="consult" id="mask">
+    <h2>咨询指南<i class="cha"></i></h2>
+    <div class="consult-con">
+        <h3>什么是职业规划咨询服务？</h3>
+        <p>大学生在求职前，对自身职业定位、职业方向等方面或多或少有一些迷茫。为此，迷你校策划了职业规划咨询服务活动，邀请了各行业知名企业的资深HR，与您一对一沟通，帮您梳理并解决当前的职业困惑。</p>
+        <h3>我们如何参与职业规划咨询服务活动？</h3>
+        <p>您可以先选择职业规划咨询的导师，在其详情页的底部进行预约，根据页面的引导，完成相应操作，直至成功预约。预约成功后，等待导师的致电，为您提供咨询服务，祝您在参与活动中，有所收获。</p>
+        <h3>在通话过程中遇到问题怎么办？</h3>
+        <p>如果在咨询通话过程中通话中断，导师将每隔五分钟重拨一次，直至上课时间结束。此种情况我们将视为学员放弃本次活动的咨询服务，我们将不会向您退款，所以请保证您的通讯信号通畅。</p>
+        <h3>我预约后可以申请退款吗？</h3>
+        <p>如您预约后，到了预定的通话时间，导师未向您致电，您可联系活动客服，申请退款；<br>
+            如您预约后，您的时间有变，可在约定通话时间后的24小时内，联系活动客服，取消预约，申请退款；<br>
+            以上产生的活动退款申请，客服将核实情况后，在5个工作日内，向您支付退款。</p>
+        <h3>付费参加活动有什么优惠吗？</h3>
+        <p>我们有“半价计划”，前10位成功报名，并完成职业规划咨询服务的同学，享受半价资格。我们会通过后台表单审核获得优惠资格的伙伴，并在职业规划咨询服务活动结束后的5个工作内，由活动微信客服，向获得优惠资格的伙伴退回折扣方案的金额。</p>
+        <h3>我可以把喜欢的导师分享给好友吗？</h3>
+        <p>我们鼓励分享哟，您只需把专家详情页分享给好友，您的好友，根据页面提示操作，也可以参与我们的活动，体验到职业规划咨询服务。</p>
+        <p>本次活动与活动中涵盖的职业规划咨询服务的最终解释权归迷你校所有。</p>
+    </div>
+</div>
+<script src="js/zepto.js"></script>
+<script>
+    $(function(){
+        var closeBtn=$('.cha'),showBtn=$('.consult-btn'), box=$('.box'),
+            consultWrap=$('.consult'),mask=$('#mask');
+        closeBtn.tap(function(){
+            box.removeClass('blur-box');
+            consultWrap.hide();
+            mask.hide();
+        });
+        showBtn.tap(function(){
+            box.addClass('blur-box');
+            consultWrap.show();
+            mask.show();
+        });
+
+//        document.getElementById('mask').addEventListener('touchmove', function (event) {
+//            if (consultWrap.css('display')=="block") {
+//                event.preventDefault();
+//            }
+//        })
+    });
+</script>
+</body>
+</html>
